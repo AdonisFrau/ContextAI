@@ -1,0 +1,10 @@
+{
+  "app_name": "contextai-test",
+  "version": "0.1.0",
+  "debug": true,
+  "features": {
+    "logging": true,
+    "metrics": false,
+    "tracing": true
+  }
+}
