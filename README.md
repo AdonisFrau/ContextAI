@@ -292,3 +292,32 @@ Contributions welcome! Areas for improvement:
 ---
 
 **Questions?** Check `.contextai/AIcontext.md` after initialization for AI-specific guidance.
+
+## Setup After Git Clone
+
+**⚠️ Linux and macOS only** (WSL on Windows works, native Windows PowerShell does not)
+
+After cloning the repository, contextai is ready to use immediately:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/contextai.git
+cd contextai
+
+# No installation or dependencies needed!
+# Start using contextai right away
+python3 contextai.py init /path/to/your/project
+python3 contextai.py get /path/to/your/project
+```
+
+### Requirements
+- Python 3.7 or higher
+- Linux, macOS, or WSL on Windows
+- No external dependencies (pure Python)
+
+### Verify Installation
+```bash
+python3 contextai.py --help
+```
+
+That's it! You're ready to start converting projects to AI-readable JSON snapshots.
